@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--Import css files-->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="btn-float">
+        <a href="contact.html" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">email</i></a>
+    </div>
+    <header>
+        <!--Navbar-->
+        <nav class="orange lighten-2">
+            <div class="nav-wrapper container">
+              <a href="#!" class="brand-logo">Felinos</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+          <!--Mobile menu-->
+          <ul class="sidenav" id="mobile-demo">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+    </header>
+    <main>
+        <div class="container z-depth-2 esp-car">
+           <div class="row">
+            <div class="col s12">
+                <h1 class="flow-text">Contact</h1>
+            </div>
+           </div>
+           <div class="row">
+            <div class="col s12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10362.96886673673!2d5.939883399999999!3d49.5082619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2slu!4v1706207212162!5m2!1sfr!2slu" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+           </div>
+           <div class="row">
+            <div class="col s12">
+                <form action="process.php" method="POST">
+                    <div class="row">
+                        <div class="col s8 offset-s2">
+                            <p>Contact us via the following form: </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s8 offset-s2">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="first-name" type="text" class="validate">
+                            <label for="first-name">First Name</label>
+                          </div>
+                          <div class="input-field col s8 offset-s2">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="last-name" type="text" class="validate">
+                            <label for="last-name">Last Name</label>
+                          </div>
+                          <div class="input-field col s8 offset-s2">
+                            <i class="material-icons prefix">phone</i>
+                            <input id="telephone" type="tel" class="validate">
+                            <label for="telephone">Telephone</label>
+                          </div>
+                          <div class="input-field col s8 offset-s2">
+                            <i class="material-icons prefix">email</i>
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                          </div>
+                          <div class="input-field col s8 offset-s2">
+                                <i class="material-icons prefix">create</i>
+                                <textarea id="textarea" class="materialize-textarea"></textarea>
+                                <label for="textarea">Textarea</label>
+                          </div>
+                          <div class="input-field col s8 offset-s2">
+                                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+           </div>
+        </div>
+    </main>
+    <footer class="page-footer orange lighten-2">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Footer Content</h5>
+              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+                <li><a class="grey-text text-lighten-3" href="portfolio.html">Portfolio</a></li>
+                <li><a class="grey-text text-lighten-3" href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2024 Copyright Animals
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          </div>
+        </div>
+      </footer>
+    
+    
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!--Import JavaScript files-->
+    <script src="js/index.js"></script>
+</body>
+</html>

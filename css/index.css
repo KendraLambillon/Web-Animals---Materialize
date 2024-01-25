@@ -1,0 +1,14 @@
+.esp-car {
+    margin-top: 25px;
+}
+
+.about {
+    margin-top: 24px;
+    margin-bottom: 30px;;
+}
+
+.btn-float {
+    position: fixed;
+    bottom: 45px;
+    right: 25px;
+}
