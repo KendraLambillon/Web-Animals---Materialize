@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Sidenav.init(elems, {
         edge: 'left'
     });
-    document.write(instances);
 });
 
 //Carousel
@@ -14,5 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
         indicators: true,
         fullWidth: true
     });
-    document.write(instances);
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = docuemnt.querySelectorAll('.datepicker');
+    var instances = M.Datepicker.init(elems);
+})
